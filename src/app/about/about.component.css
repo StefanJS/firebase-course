@@ -5,5 +5,7 @@
 
 
 .about {
+  justify-items: flex-start;
+  display: grid;
   padding: 40px;
 }

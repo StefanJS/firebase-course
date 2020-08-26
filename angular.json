@@ -24,7 +24,19 @@
             "styles": [
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [],
+            "allowedCommonJsDependencies": [
+              "firebase",
+              "@firebase/firestore",
+              "@firebase/app",
+              "firebase/app",
+              "@firebase/functions",
+              "@firebase/performance",
+              "@firebase/remote-config",
+              "@firebase/component",
+              "@firebase/util",
+              "rxjs/internal/observable/of",
+              "dialog-polyfill" ]
           },
           "configurations": {
             "production": {
